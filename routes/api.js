@@ -5,7 +5,7 @@ var fs = require("fs");
 /* List of API */
 router.get("/", function (req, res, next) {
   res.render("list", {
-    title: "ABOUTREACT",
+    title: "PPIYAG",
     apilist: [
       {
         name: `${req.headers.host}/api/user`,
